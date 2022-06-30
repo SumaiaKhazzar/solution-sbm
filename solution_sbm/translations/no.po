@@ -1,0 +1,14 @@
+#. When your package is loaded by the webclient, it adds your packages lib-name as prefix to ensure unique ids.
+#. So while you define them here without a prefix, keep in mind that you have to use "solution_smh_package.custom.translation"
+#. instead of "custom.translation" in your code
+msgid "document.autohistory.note"
+msgstr "Dokumentet \"{document_name}\" ble lagt til av {coworker_name}"
+
+msgid "dealstatus.autohistory.note"
+msgstr "Status ble endret fra \"{from_status}\" til \"{to_status}\" av {coworker_name}"
+
+msgid "buyingstatus.autohistory.note"
+msgstr "Kundestatus ble endret fra \"{from_status}\" til \"{to_status}\" av {coworker_name}"
+
+msgid "leadstatus.autohistory.note"
+msgstr "Status ble endret fra \"{from_status}\" til \"{to_status}\" av {coworker_name}"
